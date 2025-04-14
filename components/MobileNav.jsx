@@ -28,7 +28,7 @@ const MobileNav = () => {
                         </h1>
                      </Link>
                     </div>
-                 <nav className="flex flex-col gap-8 items-center">
+                 <nav className="flex flex-col gap-8 items-center z-40">
                  {NavLinks.map((link, index) => (
                         <Link key={index} href={link.path} className={`text-xl capitalize hover:text-green-400 transition-all ${link.path === pathname && "text-green-400 border-b-2 border-green-400"}`}>
                             <div className={`flex items-center font-semibold justify-center`}>

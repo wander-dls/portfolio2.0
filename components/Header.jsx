@@ -16,7 +16,7 @@ const Header = () => {
                    
                 </Link>
                 {/* desktop navbar */}
-                <div className="hidden xl:flex items-center gap-8 z-50">
+                <div className="hidden xl:flex items-center gap-8 z-40">
                     <Navbar />
                     <Link href="/contact">
                         <Button variant="default"  className="z-50">
@@ -24,7 +24,7 @@ const Header = () => {
                         </Button>
                     </Link>
                 </div>
-                <div className="xl:hidden z-50">
+                <div className="xl:hidden z-41">
                     <MobileNav />
                 </div>
             </div>

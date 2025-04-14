@@ -10,7 +10,7 @@ const Navbar = () => {
     
   return (
     <>
-        <nav className="flex gap-8 z-50">
+        <nav className="flex gap-8 z-40">
             {NavLinks.map((link, index) => {
                 return <Link href={link.path} key={index} className={`${link.path === pathname && "text-green-400 border-b-2 border-green-400"} capitalize font-medium hover:text-green-400 transition-all`}>{link.name}</Link>
             })}

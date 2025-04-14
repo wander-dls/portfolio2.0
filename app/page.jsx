@@ -22,12 +22,12 @@ const Home = () => {
                 to generate front end solutions focused on expanding user bases. 
               </p>
               <div className="flex flex-col xl:flex-row items-center justify-center xl:justify-start gap-8">
-                <Button variant="outline" className="uppercase flex items-center gap-2 z-40"
+                <Button variant="outline" className="uppercase flex items-center gap-2"
                 size="lg">
                   <span>Download Resume</span>
                   <FiDownload className="text-xl" />
                 </Button>
-                <div className="mb-8 xl:mb-0 z-40"><Socials constainerStyles="flex gap-6" iconStyles="w-9 h-9 border border-green-400 rounded-full flex justify-center items-center text-green-400 text-base hover:bg-green-400 hover:text-gray-900 hover:transition-all duration-500" /></div>
+                <div className="mb-8 xl:mb-0"><Socials constainerStyles="flex gap-6" iconStyles="w-9 h-9 border border-green-400 rounded-full flex justify-center items-center text-green-400 text-base hover:bg-green-400 hover:text-gray-900 hover:transition-all duration-500" /></div>
               </div>
             </div>
             <div className="order-1 xl:oreder-none mb-8 xl:mb-0">
