@@ -194,3 +194,36 @@ export const skills = {
         },
     ]
 }
+
+export const work = [
+    {
+        number: "01",
+        category: "Frontend",
+        title: "Portfolio Website",
+        description: "A personal portfolio website showcasing my skills and projects. Built with Next.js and Tailwind CSS.",
+        stack: [{name: "Next.js"}, {name: "Tailwind CSS"}],
+        image: "/assets/work/thumb1.png",
+        live: "",
+        github: ""
+    },
+    {
+        number: "02",
+        category: "Fullstack",
+        title: "cleaning service company website",
+        description: "A website for a cleaning service company, built with Next.js and Tailwind CSS. It features a booking system.",
+        stack: [{name: "Next.js"}, {name: "Tailwind CSS"}],
+        image: "/assets/work/thumb2.png",
+        live: "",
+        github: ""
+    },
+    {
+        number: "03",
+        category: "Frontend",
+        title: "Portfolio Website",
+        description: "A personal portfolio website showcasing my skills and projects. Built with React.js and Tailwind CSS.",
+        stack: [{name: "Next.js"}, {name: "Tailwind CSS"}],
+        image: "/assets/work/thumb3.png",
+        live: "",
+        github: ""
+    },
+]
