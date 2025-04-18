@@ -1,6 +1,7 @@
 import {FaGithub, FaLinkedinIn} from "react-icons/fa"
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs } from "react-icons/fa"
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si"
+import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa"
 
 export const NavLinks = [
     {
@@ -225,5 +226,24 @@ export const work = [
         image: "/assets/work/thumb3.png",
         live: "",
         github: ""
+    },
+]
+
+export const info = [
+    {
+        icon: <FaPhoneAlt />,
+        title: "Phone",
+        description: "(+1) 347 479 5113",
+        href: "tel:+13474795113"
+    },
+    {
+        icon: <FaEnvelope />,
+        title: "Email",
+        description: "delossantos.wander@gmail.com",
+    },
+    {
+        icon: <FaMapMarkedAlt />,
+        title: "Location",
+        description: "Newark, NJ",
     },
 ]

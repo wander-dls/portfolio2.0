@@ -16,15 +16,15 @@ const Header = () => {
                    
                 </Link>
                 {/* desktop navbar */}
-                <div className="hidden xl:flex items-center gap-8 z-40">
+                <div className="hidden xl:flex items-center gap-8">
                     <Navbar />
                     <Link href="/contact">
-                        <Button variant="default"  className="z-50">
+                        <Button variant="default">
                             Hire me
                         </Button>
                     </Link>
                 </div>
-                <div className="xl:hidden z-41">
+                <div className="xl:hidden">
                     <MobileNav />
                 </div>
             </div>
