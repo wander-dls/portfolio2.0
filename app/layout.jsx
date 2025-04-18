@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import { Toaster } from "sonner";
 
 
 
@@ -23,13 +24,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body  className={jetBrainsMono.variable} >
-      
+      <Toaster richColors position="top-center" />
         <Header />
         <StairTransition />
         <PageTransition>
+        
         {children}
+        
         </PageTransition>
-       
+        
       </body>
     </html>
   );
