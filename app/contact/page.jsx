@@ -69,7 +69,7 @@ const Contact = () => {
                   {/* input */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Input type={firstName} name="firstName" placeholder="Firstname" value={data.firstName} onChange={e => {setData({...data, firstName: e.target.value})}} />
-                    <Input type={lastName} name="lastName" placeholder="Lastname" value={data.lastName} onChange={e => {setData({...data, lastName: e.target.value})}} />
+                    <Input type={lastName} name="lastName" placeholder="Last name" value={data.lastName} onChange={e => {setData({...data, lastName: e.target.value})}} />
                     <Input type={email} name="email" placeholder="Email address" value={data.email} onChange={e => {setData({...data, email: e.target.value})}} />
                     <Input type={phone} name="phone" placeholder="Phone Number" value={data.phone} onChange={e => {setData({...data, phone: e.target.value})}} />
                   </div>
